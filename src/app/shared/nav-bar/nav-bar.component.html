@@ -1,0 +1,35 @@
+<section>
+    <div class="logo-endereco">
+        <img src="../assets/navBar/logo-ze-delivery.png" alt="">
+        <div class="text-endereco">
+                        
+            <button mat-button [matMenuTriggerFor]="menu">
+                <h1>Receber agora em:</h1>
+                Rua Samuel Morse
+                <!-- colocar endereço selecionado pelo cliente
+                    se não tiver endereço aparecer para ele selecionar -->
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item>Usar outro endereço</button>
+                <button mat-menu-item></button>
+            </mat-menu>
+        </div>
+    </div>
+    <div class="busca-auto">
+        <mat-form-field class="example-full-width">
+            <mat-label>State</mat-label>
+            <input matInput aria-label="State" [matAutocomplete]="auto">
+            <mat-autocomplete #auto="matAutocomplete">
+                <!-- <mat-option *ngFor="let state of filteredStates" [value]="state.name">
+                <img alt="" class="example-option-img" [src]="state.flag" height="25">
+                <span>{{state.name}}</span> |
+                <small>Population: {{state.population}}</small>
+              </mat-option> -->
+            </mat-autocomplete>
+        </mat-form-field>
+    </div>
+    <div class="btn-login-carrinho">
+        <button mat-button>Basic</button>
+        <button mat-raised-button>Open file</button>
+    </div>
+</section>
