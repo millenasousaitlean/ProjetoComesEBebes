@@ -9,7 +9,7 @@ export class Produtos {
     public marca: string
     public preco: number
     public imagem: string
-    public categoria: number
+    public categoria: any
     public subcategoria: number
     public avaliacoes: AvaliacoesProdutos[]
     public dimensoes: Dimensoes

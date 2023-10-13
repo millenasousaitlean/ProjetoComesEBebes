@@ -1,6 +1,8 @@
 <section>
   <nav>
-    <app-nav-bar></app-nav-bar>
+    <ng-container *ngIf="router.url.includes('page')">
+      <app-nav-bar></app-nav-bar>
+    </ng-container>    
   </nav>
   <body>
     <router-outlet></router-outlet>
@@ -9,6 +11,8 @@
     <app-sidenav></app-sidenav>
   </nav> -->
   <footer>
-    <app-footer></app-footer>
+    <ng-container *ngIf="router.url.includes('page')">
+      <app-footer></app-footer>
+    </ng-container>    
   </footer>
 </section>

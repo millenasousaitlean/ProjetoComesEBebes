@@ -6,7 +6,7 @@
             "descricao": "Descrição do Produto 1",
             "marca": "Johnnie Walker",
             "preco": 19.99,
-            "imagem": "url_imagem_produto_1.jpg",
+            "imagem": "https://www.ze.delivery/_next/image?url=https%3A%2F%2Fcourier-images-prod.imgix.net%2Fproduc_variant%2F00009144_3f73d7e6-4bcd-408d-bbbc-628652f4f34f.jpg%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3D540%26h%3D540%26dpr%3D2&w=3840&q=75",
             "categoria": 1,
             "subcategoria": 3,
             "avaliacoes": [
@@ -304,19 +304,25 @@
             {
                 "id":1,
                 "pagina": "home",
-                "pfp": "",
+                "pfp": "https://www.ze.delivery/_next/image?url=https%3A%2F%2Fcourier-images-prod.imgix.net%2Fmini-banner%2F86e1f21a-8535-439e-84b4-309f5268e869_6df9b854-e960-4254-8278-45d2b63fa8f4.jpg%3Fauto%3Dcompress%2Cformat%26fit%3Dcrop%26w%3D260%26h%3D112%26dpr%3D2&w=384&q=75",
                 "destaque": true
             },
             {
                 "id":2,
                 "pagina": "home",
-                "pfp": "",
+                "pfp": "https://www.ze.delivery/_next/image?url=https%3A%2F%2Fcourier-images-prod.imgix.net%2Fmini-banner%2Fc69e0575-a43a-4098-9aa8-edae3900abcc_6b1bc15f-5222-4d7f-b979-a672bca5dd04.jpg%3Fauto%3Dcompress%2Cformat%26fit%3Dcrop%26w%3D260%26h%3D112%26dpr%3D2&w=384&q=75",
                 "destaque": true
             },
             {
                 "id":3,
                 "pagina": "home",
-                "pfp": "",
+                "pfp": "https://www.ze.delivery/_next/image?url=https%3A%2F%2Fcourier-images-prod.imgix.net%2Fmini-banner%2Ff6f5bec9-c2ab-4334-a5c4-bc50a38ca083_01e499c9-f969-43f3-960d-2fdc83c7842d.jpg%3Fauto%3Dcompress%2Cformat%26fit%3Dcrop%26w%3D260%26h%3D112%26dpr%3D2&w=384&q=75",
+                "destaque": true
+            },            
+            {
+                "id":4,
+                "pagina": "home",
+                "pfp": "https://www.ze.delivery/_next/image?url=https%3A%2F%2Fcourier-images-prod.imgix.net%2Fmini-banner%2F6832c1dd-b20a-46eb-8133-a51b46273807_2739232a-5362-499d-9061-d71867359c35.jpg%3Fauto%3Dcompress%2Cformat%26fit%3Dcrop%26w%3D260%26h%3D112%26dpr%3D2&w=384&q=75",
                 "destaque": true
             }
         ],

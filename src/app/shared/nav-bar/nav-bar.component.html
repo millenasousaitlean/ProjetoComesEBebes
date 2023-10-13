@@ -17,19 +17,26 @@
     </div>
     <div class="busca-auto">
         <mat-form-field class="example-full-width">
-            <mat-label>State</mat-label>
-            <input matInput aria-label="State" [matAutocomplete]="auto">
+            <mat-label>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                Pesquise sua bebida ou comidinha favorita
+            </mat-label>
+            <input type="text" matInput aria-label="Produtos" [matAutocomplete]="auto" (keyup)="pressionaTecla()">
             <mat-autocomplete #auto="matAutocomplete">
-                <!-- <mat-option *ngFor="let state of filteredStates" [value]="state.name">
-                <img alt="" class="example-option-img" [src]="state.flag" height="25">
-                <span>{{state.name}}</span> |
-                <small>Population: {{state.population}}</small>
-              </mat-option> -->
+                <mat-option *ngFor="let prod of allProdutos" [value]="prod.nome">
+                <img alt="" class="example-option-img" [src]="prod.imagem" height="25">
+                <span>{{prod.categoria}} {{prod.marca}} {{prod.nome}} </span> <br>
+                <small>R$:{{prod.preco}}</small>
+              </mat-option>
             </mat-autocomplete>
         </mat-form-field>
     </div>
     <div class="btn-login-carrinho">
-        <button mat-button>Basic</button>
-        <button mat-raised-button>Open file</button>
+        <button mat-raised-button class="btn-login" routerLink="/login">
+            Entrar
+        </button>
+        <button mat-button matBadge="6" matBadgePosition="above after" matBadgeColor="accent" class="btn-carrinho">
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+        </button>
     </div>
 </section>

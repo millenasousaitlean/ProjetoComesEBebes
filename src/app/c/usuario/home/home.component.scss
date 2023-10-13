@@ -1,0 +1,119 @@
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+
+    .banner{
+        width: 100%;
+        background-size: cover;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        img{
+            width:80%;
+        }
+    }
+
+    .container-btn-categoria{
+        width: 97%;
+        display:flex ;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+
+        .btn-categorias{
+            width: 130px;
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            box-shadow: 0px 0px 5px 1px rgb(185, 185, 185);
+            cursor: pointer;
+            animation: 1s;
+
+            img{
+                width: 25px;
+            }
+
+            .text-btn{
+                line-height: 1;
+                font-size: 13.5px;
+                font-weight: 500;
+            }
+
+        }
+
+        .btn-categorias:hover{
+            transform: scale(103%);
+        }
+        
+    }
+
+    .container-destaques{
+        width: 100%;
+        margin-top: 40px;
+
+        .titulo-destaques{
+            margin-left: 30px;
+
+            h1{
+
+                font-weight: 400;
+                font-size: 18px;
+                color: #7e7d7d;
+            }
+
+        }
+
+    }
+    .container-marcas{
+        width: 100%;
+        margin-top: 40px;
+
+        .titulo-destaques{
+            margin-left: 30px;
+
+            h1{
+                font-weight: 400;
+            font-size: 18px;
+            color: #7e7d7d;
+            }
+
+        }
+    }
+    .container-recomendados{
+        width: 100%;
+        margin-top: 40px;
+
+        .titulo-destaques{
+            margin-left: 30px;
+
+            h1{
+                font-weight: 400;
+            font-size: 18px;
+            color: #7e7d7d;
+            }
+
+        }
+    }
+    .container-cervejas{
+        width: 100%;
+        margin-top: 40px;
+
+        .titulo-destaques{
+            margin-left: 30px;
+            
+            h1{
+                font-weight: 400;
+            font-size: 18px;
+            color: #7e7d7d;
+            }
+
+        }
+    }
+}
